@@ -1,0 +1,10 @@
+Bin/
+packages/
+obj/
+PropertyAgentrlRewriter.xml
+NbStore_OpenUrlRewriter.xml
+PropertyAgent_OpenUrlRewriter.xml
+web.Debug.config
+web.Release.config
+web.config
+Resources.zip.manifest
