@@ -58,7 +58,7 @@ namespace Satrabel.OpenUrlRewriter.PropertyAgent
                     var properties = pc.List(module.ModuleID, Null.NullInteger, SearchStatusType.Any, Null.NullInteger, Null.NullInteger, false, SortByType.Published, Null.NullInteger, SortDirectionType.Ascending, "", "", 0, 9999, true);
                     foreach (PropertyInfo prop in properties)
                     {
-                        var TypeRule = Rules.Single(r => r.Action == UrlRuleAction.Rewrite && r.Parameters == (settings.SEOAgentType + "=ViewType&" + settings.SEOPropertyTypeID + "=" + prop.PropertyTypeID.ToString()));
+                        var TypeRule = Rules.First(r => r.Action == UrlRuleAction.Rewrite && r.Parameters == (settings.SEOAgentType + "=ViewType&" + settings.SEOPropertyTypeID + "=" + prop.PropertyTypeID.ToString()));
 
                         CustomFieldController cfc = new CustomFieldController();
                         PropertyValueController pvc = new PropertyValueController();

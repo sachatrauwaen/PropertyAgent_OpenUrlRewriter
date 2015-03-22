@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="PropertyAgent_OpenUrlRewriter" type="Provider" version="01.03.00">
+    <package name="PropertyAgent_OpenUrlRewriter" type="Provider" version="01.03.01">
       <friendlyName>PropertyAgent_OpenUrlRewriter</friendlyName>
       <description>Satrabel PropertyAgent OpenUrlRewriter provider</description>
       <iconFile>Images/icon_extensions.gif</iconFile>
